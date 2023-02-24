@@ -1,0 +1,27 @@
+h1{
+    color: green;
+    text-decoration: underline; /* Gạch dưới */
+}
+p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS',  sans-serif;
+}
+.bordered {
+    border-image: linear-gradient(to right, red 20%, green 20%, green 40%, blue 40%, blue 60%,
+   maroon 60%, maroon 80%, chocolate 80%); /* gradient with required colors */
+    border-image-slice: 1;
+   }
+.rotate {
+    width: 100px;
+    height: 100px;
+    background: teal;
+    transform: rotate(45deg);
+   }
+.scale {
+    width: 100px;
+    height: 100px;
+    background: teal;
+    transform: scale(0.5, 1.3);
+   }   
+   
+   

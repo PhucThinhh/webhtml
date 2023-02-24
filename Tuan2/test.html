@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>Học Lập Trình</header>
+    <object width="1000" height="1000"></object>
+    <iframe src="/img/VNPT SmartCA_455.jpg"
+    width="500" height="500"></iframe>
+    <p><strong>Bold text</strong></p>Tập học<em> lập trình</em>
+    ở nhà.</p>
+    <!-- <em> thẻ in nghiêng</em> 
+         <strong>In đậm </strong>-->
+    <blockquote>
+    Anyone who has never mede a mistake has never tried anything new.<cite>- Albert Einstein</cite>
+    </blockquote>
+    <!--<blockquote> xác định đoạn trích dẫn dài </blockquote>, <cite> xác định 1 đoạn trích dẫn</cite>-->
+    <pre>
+        Some pre-formatted text
+    </pre>
+    <p>A code snippet:<code> some code</code></p>
+    <!--Xác định phần văn bản được định dạng trước-->
+    <a href="https://vietjack.com/html/"> Một số thẻ tag cơ bản</a><br>
+    <img src="/img/nvtv_2.jpg" width="145" height="126"
+    alt="Planets" usemap="#planetmap">
+    <map name="planetmap">
+        <area shape="rect" coords="0,0,60,100"
+        href="sun.htm" alt="sun">
+        <area shap="circle" coords="90,58,3"
+        href="mercur.htm" alt="Mercury">
+        <area shape="circle" coords="124,58,8"
+        href="venus.htm" alt="Venus">
+    </map>
+    <ol>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+    </ol>
+    <ul>
+        <li>France</li>
+        <li>Germany</li>
+        <li>Italy</li>
+    </ul>
+    <dl>
+        <dt>Toyota</dt>
+        <dd>Japanese car brand</dd>
+        <dt>Armani</dt>
+        <dd>Italyan fashion brand</dd>
+    </dl>
+    <!--<ol> xác định 1 danh sách được sắp xếp theo thứ tự số </ol>
+        <ul> xác định 1 danh sách theo thứ tự </ul> -->
+    <form action="form_submit.php" method="post">
+        <fieldset>
+            <legend>Bio:</legend>
+            First name:<br>
+            <input type="text" name="first-name"
+            value="John" placeholder="Please enter your first name here"><br>
+            Last name:<br>
+            <input type="text" name="last-name"
+            value="Doe" placeholder="Please enter yout last name here"><br><br>
+            Favorite sport:<br>
+            <select>
+                <option value="soccer">Soccer</option>
+                <option value="tennis">Tennis</option>
+                <option value="golf">Golf</option>
+            </select><br>
+            <textarea name="description"></textarea><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <!--<fieldset> Nhóm các thành phần liên quan với nhau trong 1 form <fieldest>
+        <legend> Xác định tiêu đề trong 1 fieldset </legend>
+        <select> Tạo 1 danh sách có thể chọn
+            <option> Danh sách </option> 
+        </select> -->
+    <table>
+        <colgroup>
+            <col span="2"><col>
+        </colgroup>
+        <tr>
+            <th>Name</th>
+            <th>Major</th>
+            <th>GPA</th>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>Law</td>
+            <td>3.55</td>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>Medicine</td>
+            <td>3.61</td>
+        </tr>
+    </table>
+    <!-- Tạo bảng -->
+    <div>
+        <h1>Top 5 Greatest Films</h1>
+        <p>These are considered the Greatest
+        <span>reel-icon</span>of all time</p>
+        <hr/>
+        <h2>1.The Godfather</h2>
+        <p>This 1972 classic stars Marlon Brando anhd AI Pacino</p>
+    </div>
+    <!--<hr/> Đường gạch -->
+    <h1>Hello world!</h1>
+    <p>Css</p>
+    <div class='bordered'>Border on all sides</div>
+    <div class="rotate"></div><br><br>
+    <div class="scale"></div>
+    
+
+</body> 
+</html>
